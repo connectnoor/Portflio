@@ -1,0 +1,32 @@
+.portfolio{
+    /* border: 1px solid red; */
+    box-shadow: 2px 2px 20px rgb(71, 71, 71);
+    display: flex;
+    width: 400px;
+   
+    flex-direction: column;
+    text-align: start;
+   padding: 20px 30px 20px 10px ;
+    border-radius: 15px;
+   background-color: black;
+   transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.port-title{
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 1.4rem;
+}
+.portfolio:hover{
+    box-shadow: 3px 3px 20px rgb(7, 7, 7);
+    transform: scale(1.03);
+
+}
+.portfolio img{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio{
+        width: 350px;
+    }
+}

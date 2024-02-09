@@ -1,0 +1,49 @@
+.card-div{
+    width: 400px;
+    padding: 20px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px rgb(71, 71, 71);
+   
+    background-color: rgb(14, 6, 6);
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.card-div:hover{
+    box-shadow: 3px 3px 20px rgb(7, 7, 7);
+    transform: scale(1.03);
+
+}
+.card-div img{
+    width: 70%;
+    /* background-color: white; */
+    font-family: "Roboto", sans-serif;
+    
+}
+.title{
+    font-size: 2rem;
+    font-family: "Reem Kufi", sans-serif;
+    color: white;
+    margin-top: 2rem;
+
+}
+.desc-card{
+    font-size: 1rem;
+    /* background-color: red; */
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 900px) {
+    .card-div{
+        width: 350px;
+    }
+}

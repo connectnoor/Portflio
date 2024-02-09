@@ -1,0 +1,87 @@
+.hero{
+    /* background-color: red; */
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    height: calc(100vh - 9rem)
+}
+.left{
+    width: 50%;
+    /* background-color: blue; */
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    
+}
+.right{
+    width: 50%;
+    /* background-color: yellow; */
+   
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 80%;
+}
+.image img {
+    width: 100%;
+}
+.hero-heading{
+    font-size: 2.8rem;
+    font-family: "Reem Kufi", sans-serif;
+    color: white;
+}
+#hi{
+    font-weight: 450;
+}
+h1:nth-child(2){
+    line-height: 3.2rem;
+}
+p{
+    color: white;
+    font-size: 1.1rem;
+    width: 70%;
+    font-family: "Reem Kufi", sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 900px) {
+    .image{
+        width: 95%;
+    }
+   
+   }
+   @media screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column-reverse;
+    
+    }
+    .left{
+        width: 100%;
+        /* background-color: blue; */
+       
+    }
+    .right{
+        width: 100%;
+        /* background-color: red; */
+        
+    }
+   .image{
+    width: 80%;
+    /* background-color: yellow; */
+
+}
+.image img {
+    width: 90%;
+}
+p{
+    width: 100%;
+}
+   }
+
+

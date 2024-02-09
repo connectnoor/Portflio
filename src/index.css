@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(59, 26, 26);
+    padding-bottom: 30px;
+
+}
+#root{
+    color: white;
+}
